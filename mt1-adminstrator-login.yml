@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: mt1-adminstrator-login
+  profiles:
+    active:
+      - development
+
+server:
+  port: 10143
+  ssl:
+    enabled: true
+    key-store: C:/Users/A1187557/Documents/SSL/keystore.jks
+    key-store-password: ${KEYSTORE_PASSWD}
+
+ldap:
+  url: ldaps://ovdtest.na.bestbuy.com/dc=bestbuy,dc=com
+  userdn: uid=wltest,ou=Applications,dc=bestbuy,dc=com
+  password: ENC(UMz3s6vRrb+uMuG2mK3VorfOnmKKvMBVrWoX6e67PwM=)
+  userDnPatterns:
+    - uid={0},ou=people
+
+dao:
+  groupRoleAttribute: cn
+  userDnFormat: uid={0},ou=People,dc=bestbuy,dc=com
+  groupSearchBase:
+    - cn=WASAdministrators,ou=Groups
+
+logging:
+  level:
+    com.maat.bestbuy.integration: trace
+    org.springframework: trace
+
+security:
+  ignored: /**
+  basic:
+    enabled: false
+spring:
+  security:
+    enabled: false
+management:
+  security:
+    enabled: false
+
+jasypt:
+  encryptor:
+    password: ${APP_SEC_PASSWD}
