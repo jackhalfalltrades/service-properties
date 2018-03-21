@@ -62,3 +62,19 @@ hystrix:
   threadpool:
     getDropdownCommand:
       coreSize: 3
+
+accepted:
+  dropdown:
+    values:
+      - applications
+      - environment
+      - type
+      - technology
+      - mode
+      - domain
+      - cluster
+      - host
+      - instance
+      - action
+      - artifact
+      - artifactPath
