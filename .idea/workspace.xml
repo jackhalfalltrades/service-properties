@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="136fed12-3942-41f4-b52f-4065edca657b" name="Default" comment="">
+    <list default="true" id="136fed12-3942-41f4-b52f-4065edca657b" name="Default" comment="change dropdown values">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mt1-load-dropdowns-dev.yml" afterPath="$PROJECT_DIR$/mt1-load-dropdowns-dev.yml" />
     </list>
@@ -27,8 +27,8 @@
       <file leaf-file-name="mt1-load-dropdowns-dev.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mt1-load-dropdowns-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+            <state relative-caret-position="560">
+              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -293,6 +293,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change dropdown values" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dropdown values" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -332,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mt1-load-dropdowns-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        <state relative-caret-position="560">
+          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -65,16 +65,4 @@ hystrix:
 
 accepted:
   dropdown:
-    values:
-      - applications
-      - environment
-      - type
-      - technology
-      - mode
-      - domain
-      - cluster
-      - host
-      - instance
-      - action
-      - artifact
-      - artifactPath
+    values: applications1,environment,type,technology,mode,domain,cluster,host,instance,action,artifact,artifactPath
