@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136fed12-3942-41f4-b52f-4065edca657b" name="Default" comment="change dropdown values">
-      <change beforePath="" afterPath="$PROJECT_DIR$/configclientdemo-dev.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mt1-load-dropdowns-dev.yml" afterPath="$PROJECT_DIR$/mt1-load-dropdowns-dev.yml" />
+      <change beforePath="$PROJECT_DIR$/configclientdemo-dev.properties" afterPath="$PROJECT_DIR$/configclientdemo-dev.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +27,7 @@
       <file leaf-file-name="mt1-load-dropdowns-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mt1-load-dropdowns-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="1232">
               <caret line="67" column="115" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="115" />
               <folding />
             </state>
@@ -38,8 +37,8 @@
       <file leaf-file-name="configclientdemo-dev.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configclientdemo-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -347,7 +346,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mt1-load-dropdowns-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="1232">
           <caret line="67" column="115" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="115" />
           <folding />
         </state>
@@ -355,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configclientdemo-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
