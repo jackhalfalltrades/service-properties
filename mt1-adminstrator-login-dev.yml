@@ -17,7 +17,6 @@ ldap:
   password: ENC(UMz3s6vRrb+uMuG2mK3VorfOnmKKvMBVrWoX6e67PwM=)
   userDnPatterns:
     - uid={0},ou=people
-
 dao:
   groupRoleAttribute: cn
   userDnFormat: uid={0},ou=People,dc=bestbuy,dc=com
@@ -39,6 +38,24 @@ spring:
 management:
   security:
     enabled: false
+
+hystrix:
+  command:
+    loginCommand:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+      metrics:
+        rollingStats:
+          numBuckets: 10
+          timeInMilliseconds: 120000
+      circuitBreaker:
+        errorThresholdPercentage: 60
+        sleepWindowInMilliseconds: 2000
+  threadpool:
+    loginCommand:
+      coreSize: 3
 
 jasypt:
   encryptor:

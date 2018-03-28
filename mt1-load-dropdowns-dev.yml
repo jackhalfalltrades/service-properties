@@ -43,7 +43,7 @@ logging:
 
 jasypt:
   encryptor:
-    password: ${APP_SEC_PASSWD}
+    : ${APP_SEC_PASSWD}
 
 hystrix:
   command:
