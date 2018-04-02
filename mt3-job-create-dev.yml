@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url: jdbc:oracle:thin:@dlocdb05.na.bestbuy.com:50000/od01csdbsvc.world
-    username: ciristest
+    url: <JDBC Connection String>
+    username: <DB password>
     password: ENC(FZWzTltpowrvq5BJR0AJkRpPiJC/pvhsTE5OOt/92z8=)
     driver-class-name: oracle.jdbc.driver.OracleDriver
   jpa:

@@ -6,8 +6,8 @@ server:
     key-store-password: ENC(bvyUqgivD+D5yK7PskZcKMNV/ufJaTVM)
 
 ldap:
-  url: ldaps://ovdtest.na.bestbuy.com/dc=bestbuy,dc=com
-  userdn: uid=wltest,ou=Applications,dc=bestbuy,dc=com
+  url: ldaps://<>
+  userdn: bindDN name
   password: ENC(UMz3s6vRrb+uMuG2mK3VorfOnmKKvMBVrWoX6e67PwM=)
   userDnPatterns:
     - uid={0},ou=people
@@ -15,7 +15,7 @@ dao:
   groupRoleAttribute: cn
   userDnFormat: uid={0},ou=People,dc=bestbuy,dc=com
   groupSearchBase:
-    - cn=WASAdministrators,ou=Groups
+    - cn=groupname,ou=Groups
 
 logging:
   level:
