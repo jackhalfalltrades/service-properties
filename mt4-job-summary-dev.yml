@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: <JDBC Connection String>
-    username: <DB Password>
-    password: ENC(FZWzTltpowrvq5BJR0AJkRpPiJC/pvhsTE5OOt/92z8=)
+    url: ${JDBC_CONNECTION_STRING}
+    username: ${DB_USER_NAME}
+    password: ${DB_PASSWD}
     driver-class-name: oracle.jdbc.driver.OracleDriver
   jpa:
     database-platform: org.hibernate.dialect.Oracle12cDialect
@@ -26,8 +26,8 @@ server:
   port: 40143
   ssl:
     enabled: true
-    key-store: C:/Users/A1187557/Documents/SSL/keystore.jks
-    key-store-password: ENC(bvyUqgivD+D5yK7PskZcKMNV/ufJaTVM)
+    key-store: ${KEY_STORE_PATH}
+    key-store-password: ${KEY_STORE_PASSWD}
 
 logging:
   level:

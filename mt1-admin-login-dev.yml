@@ -2,20 +2,20 @@ server:
   port: 10143
   ssl:
     enabled: true
-    key-store: C:/Users/A1187557/Documents/SSL/keystore.jks
-    key-store-password: ENC(bvyUqgivD+D5yK7PskZcKMNV/ufJaTVM)
+    key-store: ${KEY_STORE_PATH}
+    key-store-password: ${KEY_STORE_PASSWD}
 
 ldap:
-  url: ldaps://<>
-  userdn: bindDN name
-  password: ENC(UMz3s6vRrb+uMuG2mK3VorfOnmKKvMBVrWoX6e67PwM=)
+  url: ${LDAPS_URL}
+  userdn: ${LDAP_USER_NAME}
+  password: ${LDAP_PASSWD}
   userDnPatterns:
     - uid={0},ou=people
 dao:
   groupRoleAttribute: cn
   userDnFormat: uid={0},ou=People,dc=bestbuy,dc=com
   groupSearchBase:
-    - cn=groupname,ou=Groups
+    - cn=${LDAP_GROUP_NAME},ou=Groups
 
 logging:
   level:
