@@ -1,1 +1,2 @@
 cloudMessage: hellofromcloud
+password: ${password}
