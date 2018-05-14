@@ -5,9 +5,9 @@ routes:
   services:
     -
         name: sm1
-        version: v1
+        version: v2
         lb: ttc
     -
         name: sm2
-        version: v2
+        version: v3
         lb: ttc
