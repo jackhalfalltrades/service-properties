@@ -1,2 +1,13 @@
 cloudMessage: hellofromcloud
 password: ${password}
+routes:
+  regionBasedRouting: TTC:100%, TTE:0%
+  services:
+    - sm1:
+        name: sm1
+        version: v1
+        lb: ttc
+    - sm2:
+        name: sm2
+        version: v2
+        lb: ttc
