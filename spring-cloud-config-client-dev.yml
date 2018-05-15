@@ -4,7 +4,7 @@ routes:
   regionBasedRouting: TTC:100%, TTE:0%
   services:
     -
-        name: sm3
+        name: sm4
         version: v2
         lb: ttc
     -
